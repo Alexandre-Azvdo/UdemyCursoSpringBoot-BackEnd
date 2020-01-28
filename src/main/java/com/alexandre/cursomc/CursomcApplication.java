@@ -20,14 +20,11 @@ import com.alexandre.cursomc.repositories.ProdutoRepository;
 public class CursomcApplication implements CommandLineRunner{
 
 	@Autowired
-	private CategoriaRepository categoriaRepository;
-	
+	private CategoriaRepository categoriaRepository;	
 	@Autowired
-	private ProdutoRepository produtoRepository;
-	
+	private ProdutoRepository produtoRepository;	
 	@Autowired
-	private EstadoRepository estadoRepository;
-	
+	private EstadoRepository estadoRepository;	
 	@Autowired
 	private CidadeRepository cidadeRepository;
 	
